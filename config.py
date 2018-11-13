@@ -1,0 +1,13 @@
+gpu_index = "1"
+cuda = True
+image_size = 224
+train_batch = 32
+class_num = 1
+learning_rate = 0.001
+Epoch_num = 300
+print_feq = 3
+save_feq = 50
+MobileNetV2_weights = './data/mobilenet_v2.pth.tar'
+model_dir = './train_model/'
+image_dir = './data/lfw_funneled/'
+mask_dir = './data/parts_lfw_funneled_gt_images/'
